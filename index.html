@@ -146,8 +146,8 @@
 							<!-- 2 Columns -->
 								<div class="flex flex-2">
 									<div class="col col1">
-										<div class="image round fit">
-											<a href="generic.html" class="link"><img src="images/cnc-miller.jpg" alt="" /></a>
+										<div class="image fit">
+											<a href="generic.html" class="link"><img src="images/input_handle.png" alt="" /></a>
 										</div>
 									</div>
 									<div class="col col2">
@@ -165,6 +165,12 @@
 										<h3>Generating G-Code</h3>
 										<p>For generating the G-code that exactly replicates the user shape, we first have to keep track of the coordinates of the points the shape is composed of. Updating the set of coordinates as the user adds/removes parts of it. But that is not enough. We have to handle the case when the user’s shape is disconnected and the user creates shapes by dragging and lifting the finger from the mousepad or mouse. In such cases, we need to detect that the user is not dragging the mouse anymore and hence the corresponding g-code should have appropriate gaps, otherwise, we will see unnecessary lines on the final carving where users didn’t draw. Once we have correct set of coordinates	and appropriate break points, we can generate the g-code depending on the underlying software we use for communicating with the CNC miller.</p>
 									</div>
+									<div class="col col1 first">
+<!-- 										<div style="height:15%;"></div> -->
+										<div class="image fit">
+											<a class="link"><img src="images/gcode_gen.png" alt="" /></a>
+										</div>
+									</div>
 								</div>
 						</div>
 					</section>
@@ -174,8 +180,8 @@
 							<!-- 2 Columns -->
 								<div class="flex flex-2">
 									<div class="col col1">
-										<div class="image round fit">
-											<a href="generic.html" class="link"><img src="images/cnc-miller.jpg" alt="" /></a>
+										<div class="image fit">
+											<a href="generic.html" class="link"><img src="images/easel_carve.png" alt="" /></a>
 										</div>
 									</div>
 									<div class="col col2">
